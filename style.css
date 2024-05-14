@@ -1,0 +1,96 @@
+/* Стили для примера */  
+.menu {  
+  display: none;  
+  position: fixed;  
+  top: 50px;  
+  left: 10px;  
+  z-index: 9999;  
+  background-color: #f0f0f0;  
+  padding: 10px;  
+  border-radius: 5px;  
+}  
+
+.menu a {  
+  display: block;  
+  color: #333;  
+  text-decoration: none;  
+  padding: 5px 0;  
+}  
+
+.menu a:hover {  
+  background-color: #ddd;  
+  border-radius: 5px;  
+}  
+
+.hamburger {  
+  position: fixed;  
+  top: 10px;  
+  left: 10px;  
+  cursor: pointer;  
+  z-index: 9999;  
+}  
+
+.hamburger-text {  
+  position: fixed;  
+  top: 10px;  
+  left: 40px;  
+  z-index: 9999;  
+}  
+
+.search-button {  
+  position: fixed;  
+  top: 10px;  
+  right: 10px;  
+  z-index: 9999;  
+  color: #000;  
+  padding: 10px;  
+  border-radius: 50%;  
+  text-decoration: none;  
+  font-family: 'Apien Basic', sans-serif;  
+  font-weight: bold;  
+}  
+
+.search-button:hover {  
+  background-color: #ddd;  
+}  
+
+.search-button::before {  
+  content: "\1F50D";  
+  font-size: 20px;  
+}  
+
+.search-input {  
+  position: fixed;  
+  top: 50px;  
+  right: 10px;  
+  z-index: 9999;  
+  padding: 5px;  
+  border-radius: 5px;  
+  border: 1px solid #ccc;  
+} 
+
+.manga-image {  
+  position: fixed; 
+  top: 150px; 
+  left: 10px; 
+  z-index: 9999; 
+  display: flex; 
+  flex-wrap: wrap; 
+} 
+
+.manga-item { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin-right: 20px; 
+} 
+
+.manga-image img {  
+  width: 130px; 
+  height: 200px; 
+  margin-bottom: 10px; 
+} 
+
+.manga-title { 
+  text-align: center; 
+}
